@@ -1,0 +1,16 @@
+{
+  "name": "hello-world-app",
+  "version": "1.0.0",
+  "description": "A simple AWS Lambda function that returns 'Hello, World!'",
+  "main": "handler.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "deploy": "sh ./scripts/deploy.sh"
+  },
+  "author": "Gledyson Ferreira dos Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^8.0.3",
+    "mocha": "^10.2.0"
+  }
+}
